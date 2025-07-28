@@ -38,3 +38,5 @@ Here are a few websites that you may find helpful as you continue learning:
 * [Real Python](https://realpython.com/)
 
 These resources explain topics in detail and provide more examples.
+
+[01_Installation >>](/01_Installation/installation.md)
