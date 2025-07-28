@@ -72,16 +72,26 @@ You just ran your first Python command in the shell.
 
 <img width="705" height="137" alt="image" src="https://github.com/user-attachments/assets/0eb23394-5dba-4384-8b49-689406d8b7e2" />
 
->Let us do some basic mathematical operations (addition, subtraction, multiplication, division, modulus, exponential) in Python Interactive shell.
+>`Let us do some basic mathematical (addition, subtraction, multiplication, division, modulus, exponential) and comparision operations in Python Interactive shell.`
 
     5 + 4 is 9
     5 - 4 is 1
     5 * 4 is 20
     5 / 4 is 1.25
-    5 ** 2 is 25 (exponentioal form)
+    5 ** 2 is 25 (exponential)
+    5 > 4 is True
+    5 < 4 is False
+    5 == 5 is True
 
-<img width="706" height="246" alt="image" src="https://github.com/user-attachments/assets/084245d7-c1b3-4fef-91f5-35f13a6857fb" />
+<img width="710" height="326" alt="image" src="https://github.com/user-attachments/assets/70bc83cf-6eee-42e7-90d8-bb7f194d629e" />
 
+🛑 **Syntax Error**
+
+A syntax error happens when you write code that Python doesn't understand. It's like making a grammar mistake in a sentence. If something is missing or typed incorrectly, Python will stop and show an error message.
+
+```python
+print("Hello, world!   # Missing closing quote
+```
 
 ### 🔹 To Exit the Shell
 
