@@ -1,4 +1,4 @@
-## 📘 **Introduction to Python**
+## 📘 Introduction to Python
 
 Python is a popular programming language known for its simple and readable syntax. It is often the first language people learn because it feels close to everyday English and is easy to write and understand. Python can be used to build websites, automate tasks, analyze data, create software, and much more. It works across different platforms and has a large community that supports learning and problem-solving. Whether you are just starting out or looking to explore new ideas, Python offers a smooth and friendly way to begin your programming journey. It grows with you as you learn.
 
@@ -71,6 +71,16 @@ Hello, Python!
 You just ran your first Python command in the shell.
 
 <img width="705" height="137" alt="image" src="https://github.com/user-attachments/assets/0eb23394-5dba-4384-8b49-689406d8b7e2" />
+
+>Let us do some basic mathematical operations (addition, subtraction, multiplication, division, modulus, exponential) in Python Interactive shell.
+
+    5 + 4 is 9
+    5 - 4 is 1
+    5 * 4 is 20
+    5 / 4 is 1.25
+    5 ** 2 is 25 (exponentioal form)
+
+<img width="706" height="246" alt="image" src="https://github.com/user-attachments/assets/084245d7-c1b3-4fef-91f5-35f13a6857fb" />
 
 
 ### 🔹 To Exit the Shell
