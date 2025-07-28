@@ -127,3 +127,5 @@ Search for **"Python"** and install the one by Microsoft. This helps you run and
 ### ✅ You’re Ready!
 
 Now you can open any `.py` file or create a new one and start coding in a clean, beginner-friendly environment.
+
+[02_Fundamentals >>](02_Fundamentals/fundamentals.md)
