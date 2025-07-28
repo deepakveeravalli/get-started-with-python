@@ -4,4 +4,6 @@ Python is a popular programming language known for its simple and readable synta
 
 **Installing Python**
 
-To run a python script you need to install python. Let's download python
+Python has to be installed to run python scripts. [Download](https://www.python.org/downloads/) python and install it as per the OS.
+
+**How to check if python is installed**
