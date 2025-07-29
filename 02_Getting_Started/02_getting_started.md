@@ -311,4 +311,47 @@ print(price)
 * Convert it into an integer
 * Add 10 and print the result
 
+
+## 🧪 Exercises: Warm-Up with Variables
+
+1. Inside your project folder, create a new file called `basics.py`.
+   At the top of the file, write a comment like this:
+   `# Learning Python: Variables, Types, and Simple Logic`
+
+2. Declare the following variables with values of your choice:
+
+   * `favorite_color` (string)
+   * `birth_year` (integer)
+   * `height_in_cm` (float)
+   * `likes_pizza` (boolean)
+
+3. Create a variable `full_sentence` that combines `favorite_color` and `likes_pizza` into a single string using the `+` operator. Print the result.
+
+4. Declare `language`, `creator`, and `released_year` on the same line. Assign suitable values.
+
+5. Assign your name to a variable called `nickname`. Use `print()` to show a welcome message using that name.
+
+6. Create a variable `daily_temperature` and assign a float. Then declare another variable `rounded_temp` and convert it to an integer using `int()`.
+
+7. Use the `type()` function to display the type of each variable you created above.
+
+8. Create a string variable `movie_title`. Then use the `len()` function to print how many letters are in the movie title.
+
+9. Set the following variables:
+
+   ```python
+   apples = 8
+   oranges = 5
+   ```
+
+   Perform and store the results in new variables:
+
+   * Total fruits
+   * Difference in quantity
+   * Ratio of apples to oranges (use float division)
+   * Result of dividing apples by oranges with floor division
+   * Whether the total number of fruits is even (use modulus `% 2`)
+
+10. Create a variable `word = "true"` and convert it to a boolean using `bool()` and explain the result with a comment.
+
 [<< 01_Installation](/01_installation.md) | [03_Data_Types >>](/03_Data_Types/02_data_types.md)
