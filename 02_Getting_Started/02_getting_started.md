@@ -30,6 +30,7 @@ There are some common rules for naming variables in Python:
 * Names **cannot start with a number**
   `2name` → Invalid
 * Avoid using spaces or special symbols in variable names
+  `total_amount$`, `user-name`, `first@name`, `variable-1`
 * Do not use Python keywords like `class`, `print`, or `for` as variable names
 
 Choose meaningful names that explain what the variable holds.
@@ -37,18 +38,63 @@ Choose meaningful names that explain what the variable holds.
 
 ## 📦 Variables
 
-Variables store values in computer memory. You don’t need to declare their type, just assign a value and Python will figure it out.
+Variables store values in computer memory. In Python, you do not need to declare the type of a variable before using it. You just give it a name and assign a value using the `=` symbol.
+
+#### 🔹 Declaring a Variable
 
 ```python
-name = "Emily"
-age = 25
+name = "Akhil"
+age = 15
 is_student = True
 ```
 
-You can change a variable’s value later in the program.
+In the example above:
+
+* `name` holds a string value
+* `age` holds an integer
+* `is_student` holds a boolean (True or False)
+
+Python figures out the type based on the value you assign.
+
+#### 🔄 Changing a Variable’s Value
+
+You can assign a new value to the same variable at any time.
+
+```python
+name = "Akhil"
+name = "AbhiRaam"  # Now name refers to "AbhiRaam"
+```
+
+The most recent assignment is what the variable holds.
+
+#### 📌 Multiple Variables in One Line
+
+Python lets you assign values to multiple variables at once. This can help you write cleaner code when needed.
+
+`Example 1: Assigning Different Values`
+
+```python
+x, y, z = 1, 2, 3
+print(x)  # Output: 1
+print(y)  # Output: 2
+print(z)  # Output: 3
+```
+
+Make sure the number of variables and values match.
+
+`Example 2: Assigning Same Value to Multiple Variables`
+
+```python
+a = b = c = 10
+print(a)  # Output: 10
+print(b)  # Output: 10
+print(c)  # Output: 10
+```
+
+This is useful when you want to initialize several variables with the same starting value.
 
 
-## 📏 Best Practices for Indentation in Python
+## 📏 Indentation in Python
 
 In Python, **indentation is not optional—it is required**. It tells Python which lines of code belong together. If the indentation is incorrect, your code will not run. Indentation means leaving spaces at the beginning of a line to show that it is inside a block, like a loop or a function. In most cases, you press the **Tab** key or type **4 spaces**.
 
@@ -79,6 +125,59 @@ print("Hello,", name)
 * Do not use both tabs and spaces in the same file.
 
 
+Sure! Here's a simple and beginner-friendly explanation about **commenting in Python**, written in a clear and human tone:
+
+---
+
+## 💬 Commenting in Python
+
+Comments are notes you write in your code to explain what it does. Python ignores comments when running the program. They are just there to help you (and others) understand the code better.
+
+#### 🔹 How to Write a Comment
+
+In Python, comments start with a `#` symbol. Anything after the `#` on that line is ignored by Python.
+
+```python
+# This is a comment
+print("Hello, world!")  # This prints a message
+```
+
+#### ✅ Why Use Comments?
+
+* To describe what the code does
+* To make your code easier to understand
+* To remind yourself why you wrote something a certain way
+* To temporarily disable a line without deleting it
+
+#### 🔸 Multi-Line Comments (Tip)
+
+Python does not have a special way for multi-line comments, but you can write several single-line comments in a row:
+
+```python
+# This program adds two numbers
+# and prints the result
+num1 = 5
+num2 = 7
+print(num1 + num2)
+```
+
+Or, you can use triple quotes `'''` or `"""` as a workaround, though it's mostly used for documentation:
+
+```python
+'''
+This is not a true comment,
+but Python will ignore it unless it's used as a docstring.
+'''
+```
+
+#### 📝 Best Practices
+
+* Keep comments short and clear
+* Write comments **above** the code they describe
+* Do not overuse comments—only write them where it helps understanding
+* Update comments if you change your code
+
+
 ## 🛠 Built-in Functions
 
 Python comes with many built-in functions. These are ready-to-use tools that help you perform common tasks.
@@ -96,6 +195,7 @@ name = input("What is your name? ")
 print("Welcome,", name)
 ```
 
+Complete list of built-in functions can be found from [Python documentation](https://docs.python.org/3.9/library/functions.html)
 
 ## 📋 Data Types
 
@@ -210,3 +310,5 @@ print(price)
 * Take a string input from the user
 * Convert it into an integer
 * Add 10 and print the result
+
+[<< 01_Installation](/01_installation.md) | [03_Data_Types >>](/03_Data_Types/02_data_types.md)
