@@ -125,10 +125,6 @@ print("Hello,", name)
 * Do not use both tabs and spaces in the same file.
 
 
-Sure! Here's a simple and beginner-friendly explanation about **commenting in Python**, written in a clear and human tone:
-
----
-
 ## 💬 Commenting in Python
 
 Comments are notes you write in your code to explain what it does. Python ignores comments when running the program. They are just there to help you (and others) understand the code better.
