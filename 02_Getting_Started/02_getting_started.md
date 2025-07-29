@@ -71,7 +71,7 @@ Python has several basic data types:
   Example: `3.14`, `-0.5`
 * **Boolean** (`bool`) – `True` or `False`
 
-## 🔍 Checking Data Types
+#### 🔍 Checking Data Types
 
 Use the `type()` function to check what kind of data a variable holds.
 
@@ -82,7 +82,7 @@ print(type(age))  # Output: <class 'int'>
 
 This is helpful when you are working with inputs or when debugging.
 
-## 🔄 Casting (Changing Data Types)
+#### 🔄 Casting (Changing Data Types)
 
 You can change one type of data into another using casting functions like:
 
@@ -103,19 +103,19 @@ Always make sure the value can be converted. For example, `"hello"` cannot be tu
 
 Test your understanding with these short questions. Try to answer them before checking the answers.
 
-### 1. Is Python case-sensitive?
+#### 1. Is Python case-sensitive?
 
 a) Yes
 b) No
 
-### 2. Which of these is a valid variable name?
+#### 2. Which of these is a valid variable name?
 
 a) `2score`
 b) `user-name`
 c) `total_amount`
 d) `for`
 
-### 3. What will this code print?
+#### 3. What will this code print?
 
 ```python
 x = 7
@@ -127,7 +127,7 @@ b) `<class 'float'>`
 c) `<class 'int'>`
 d) `<class 'bool'>`
 
-### 4. What is the output of this code?
+#### 4. What is the output of this code?
 
 ```python
 value = "10"
@@ -143,7 +143,7 @@ d) 10
 
 Try these small exercises on your own. You can run them in the Python Shell or in a `.py` file using VS Code.
 
-### 🔸 Exercise 1: Create and Print Variables
+#### 🔸 Exercise 1: Create and Print Variables
 
 * Create a variable called `first_name` and assign your name to it
 * Create a variable called `age` and assign your age
@@ -155,12 +155,12 @@ Try these small exercises on your own. You can run them in the Python Shell or i
 My name is Deepak and I am 25 years old.
 ```
 
-### 🔸 Exercise 2: Use type()
+#### 🔸 Exercise 2: Use type()
 
 * Create three variables: one string, one integer, and one float
 * Print the type of each using `type()`
 
-### 🔸 Exercise 3: Fix the Error
+#### 🔸 Exercise 3: Fix the Error
 
 What’s wrong with this code? Fix it and run it.
 
@@ -169,7 +169,7 @@ price = "20
 print(price)
 ```
 
-### 🔸 Exercise 4: Casting Practice
+#### 🔸 Exercise 4: Casting Practice
 
 * Take a string input from the user
 * Convert it into an integer
