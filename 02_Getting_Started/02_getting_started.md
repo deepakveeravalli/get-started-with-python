@@ -96,7 +96,7 @@ This is useful when you want to initialize several variables with the same start
 
 ## 📏 Indentation in Python
 
-In Python, **indentation is not optional—it is required**. It tells Python which lines of code belong together. If the indentation is incorrect, your code will not run. Indentation means leaving spaces at the beginning of a line to show that it is inside a block, like a loop or a function. In most cases, you press the **Tab** key or type **4 spaces**.
+In Python, **indentation is not optional - it is required**. It tells Python which lines of code belong together. If the indentation is incorrect, your code will not run. Indentation means leaving spaces at the beginning of a line to show that it is inside a block, like a loop or a function. In most cases, you press the **Tab** key or type **4 spaces**.
 
 #### ✅ Best Practices to Follow
 
@@ -174,7 +174,7 @@ but Python will ignore it unless it's used as a docstring.
 
 * Keep comments short and clear
 * Write comments **above** the code they describe
-* Do not overuse comments—only write them where it helps understanding
+* Do not overuse comments, only write them where it helps understanding
 * Update comments if you change your code
 
 
