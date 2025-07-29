@@ -128,4 +128,4 @@ Search for **"Python"** and install the one by Microsoft. This helps you run and
 
 Now you can open any `.py` file or create a new one and start coding in a clean, beginner-friendly environment.
 
-[<< README](/README.md) | [02_Fundamentals >>](/02_Fundamentals/fundamentals.md)
+[<< README](/README.md) | [02_Getting_Started >>](/02_Getting_Started/02_getting_started.md)
