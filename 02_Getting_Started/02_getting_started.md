@@ -2,6 +2,7 @@
 
 Before diving into Python programming, it's helpful to learn a few basic rules. These ideas will make your code easier to read, understand, and troubleshoot. Let’s walk through some simple but important concepts to get started the right way.
 
+
 ## ✅ Case Sensitivity
 
 Python is **case-sensitive**. This means `Name`, `name`, and `NAME` are all considered different. Always pay attention to your spelling and letter case when writing code.
@@ -13,12 +14,19 @@ print(name)  # Will print: Alex
 print(Name)  # Will print: Jordan
 ```
 
+
 ## 🧾 Naming Convention
 
 There are some common rules for naming variables in Python:
 
-* Use **lowercase letters** and words separated by underscores
+#### **Valid**
+* A variable name must start with a letter or the underscore character
+  Example: `firstname`, `first_name`, `age`, `_if` # reserved word as a variable
+* Use **lowercase letters** and words separated by underscores (snake_case)
   Example: `user_name`, `total_amount`
+* A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
+
+#### **Invalid**
 * Names **cannot start with a number**
   `2name` → Invalid
 * Avoid using spaces or special symbols in variable names
@@ -26,9 +34,10 @@ There are some common rules for naming variables in Python:
 
 Choose meaningful names that explain what the variable holds.
 
+
 ## 📦 Variables
 
-Variables store values. You don’t need to declare their type, just assign a value and Python will figure it out.
+Variables store values in computer memory. You don’t need to declare their type, just assign a value and Python will figure it out.
 
 ```python
 name = "Emily"
@@ -38,7 +47,37 @@ is_student = True
 
 You can change a variable’s value later in the program.
 
----
+
+## 📏 Best Practices for Indentation in Python
+
+In Python, **indentation is not optional—it is required**. It tells Python which lines of code belong together. If the indentation is incorrect, your code will not run. Indentation means leaving spaces at the beginning of a line to show that it is inside a block, like a loop or a function. In most cases, you press the **Tab** key or type **4 spaces**.
+
+#### ✅ Best Practices to Follow
+
+* **Always use 4 spaces per indentation level.** Avoid mixing tabs and spaces.
+* **Keep your indentation consistent.** If you use spaces in one part, use spaces everywhere.
+* **Indent code inside blocks** such as `if`, `for`, `while`, `def`, and `class`.
+
+#### 🔍 Example:
+
+```python
+# Correct indentation
+def greet():
+    name = "Alex"
+    print("Hello,", name)
+
+# Incorrect indentation (will cause an error)
+def greet():
+name = "Alex"
+print("Hello,", name)
+```
+
+#### 📝 Tips:
+
+* Most code editors (like VS Code) automatically indent for you.
+* Turn on “show whitespace” in your editor to spot indentation errors.
+* Do not use both tabs and spaces in the same file.
+
 
 ## 🛠 Built-in Functions
 
@@ -57,7 +96,6 @@ name = input("What is your name? ")
 print("Welcome,", name)
 ```
 
----
 
 ## 📋 Data Types
 
@@ -98,6 +136,7 @@ print(converted + 2)  # Output: 7
 ```
 
 Always make sure the value can be converted. For example, `"hello"` cannot be turned into a number.
+
 
 ## 🧠 Quick Quiz
 
@@ -140,6 +179,7 @@ c) Error
 d) 10
 
 ## ✍️ Practice Section
+
 
 Try these small exercises on your own. You can run them in the Python Shell or in a `.py` file using VS Code.
 
