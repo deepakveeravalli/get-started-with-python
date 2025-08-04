@@ -3,7 +3,7 @@
 Before diving into Python programming, it's helpful to learn a few basic rules. These ideas will make your code easier to read, understand, and troubleshoot. Let’s walk through some simple but important concepts to get started the right way.
 
 
-## ✅ Case Sensitivity
+## [Aa] Case Sensitivity
 
 Python is **case-sensitive**. This means `Name`, `name`, and `NAME` are all considered different. Always pay attention to your spelling and letter case when writing code.
 
