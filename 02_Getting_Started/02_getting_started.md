@@ -28,7 +28,7 @@ There are some common rules for naming variables in Python:
 
 #### ⛔ Invalid
 * Names **cannot start with a number**
-  `2name` → Invalid
+  `2name`
 * Avoid using spaces or special symbols in variable names
   `total_amount$`, `user-name`, `first@name`, `variable-1`
 * Do not use Python keywords like `class`, `print`, or `for` as variable names
