@@ -27,7 +27,7 @@ There are some common rules for naming variables in Python:
 * A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
 
 #### ⛔ Invalid
-* Names **cannot start with a number**
+* Variable names **cannot start with a number**
   `2name`
 * Avoid using spaces or special symbols in variable names
   `total_amount$`, `user-name`, `first@name`, `variable-1`
