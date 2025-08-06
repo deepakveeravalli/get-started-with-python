@@ -193,7 +193,7 @@ print("Welcome,", name)
 
 Complete list of built-in functions can be found from [Python documentation](https://docs.python.org/3.9/library/functions.html)
 
-## 📋 Data Types
+## 📋 Basic Data Types
 
 Python has several basic data types:
 
