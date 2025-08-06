@@ -20,8 +20,8 @@ print(Name)  # Will print: Jordan
 There are some common rules for naming variables in Python:
 
 #### ✅ Valid
-* A variable name can only contain alpha-numeric characters and underscores `(A-z, 0-9, and _ )`
-* A variable name must start with a letter or the underscore character
+* A variable name can only contain **alpha-numeric characters and underscores** `(A-z, 0-9, and _ )`
+* A variable name must start with a **letter or the underscore** character
   Example: `firstname`, `first_name`, `age`, `_if # reserved word as a variable`
 * Use **lowercase letters** and words separated by underscores (snake_case)
   Example: `user_name`, `total_amount`
@@ -31,7 +31,7 @@ There are some common rules for naming variables in Python:
   `2name`
 * Avoid using spaces or special symbols in variable names
   `total_amount$`, `user-name`, `first@name`, `variable-1`
-* Do not use Python keywords like `class`, `print`, or `for` as variable names
+* Do not use **keywords** like `class`, `print`, or `for` as variable names
 
 Choose meaningful names that explain what the variable holds.
 
