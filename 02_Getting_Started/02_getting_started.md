@@ -20,11 +20,11 @@ print(Name)  # Will print: Jordan
 There are some common rules for naming variables in Python:
 
 #### ✅ Valid
+* A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
 * A variable name must start with a letter or the underscore character
   Example: `firstname`, `first_name`, `age`, `_if # reserved word as a variable`
 * Use **lowercase letters** and words separated by underscores (snake_case)
   Example: `user_name`, `total_amount`
-* A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
 
 #### ⛔ Invalid
 * Variable names **cannot start with a number**
