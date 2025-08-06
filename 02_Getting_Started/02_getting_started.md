@@ -350,4 +350,4 @@ print(price)
 
 10. Create a variable `word = "true"` and convert it to a boolean using `bool()` and explain the result with a comment.
 
-[<< 01_Installation](/01_installation.md) | [03_Data_Types >>](/03_Data_Types/02_data_types.md)
+[<< 01_Installation](/01_installation.md) | [03_Data_Types >>](/03_Data_Types/03_data_types.md)
