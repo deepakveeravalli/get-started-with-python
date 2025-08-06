@@ -1,2 +1,2 @@
 
-<img width="4050" height="1644" alt="Data Types" src="https://github.com/user-attachments/assets/e1e15781-f2e4-4870-b281-a7a62c7bd2cf" />
+<img width="4059" height="1644" alt="Data Types" src="https://github.com/user-attachments/assets/103ef8b4-c46e-4d31-8ca5-fdb4d6f300ed" />
