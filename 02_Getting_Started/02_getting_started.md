@@ -71,7 +71,7 @@ The most recent assignment is what the variable holds.
 
 Python lets you assign values to multiple variables at once. This can help you write cleaner code when needed.
 
-`Example 1: Assigning Different Values`
+`Example 1: Assigning Different Values to Multiple Variables`
 
 ```python
 x, y, z = 1, 2, 3
